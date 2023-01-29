@@ -1,16 +1,6 @@
 # Guiding Text-to-Image Diffusion Model Towards Grounded Generation
 
-This repository contains the PyTorch implementation of grounded diffusion: https://arxiv.org/abs/2301.05221.
-
-## Citation
-If you use this code for your research or project, please cite:
-
-	@article{li2023grounded,
-	  title={Guiding Text-to-Image Diffusion Model Towards Grounded Generation},
-	  author={Li, Ziyi and Zhou, Qinye and Zhang, Xiaoyun and Zhang, Ya and Wang, Yanfeng and Xie, Weidi},
-	  journal = {arXiv:2301.05221},
-	  year={2023}
-	}
+This repository contains the official PyTorch implementation of grounded diffusion: https://arxiv.org/abs/2301.05221.
 
 ## Requirements
 A suitable [conda](https://conda.io/) environment named `grounded-diffusion` can be created
@@ -37,6 +27,15 @@ python test.py --sd_ckpt 'xxx/stable_diffusion.ckpt' \
 --category "lion"
 
 ```
+## Citation
+If you use this code for your research or project, please cite:
 
+	@article{li2023grounded,
+	  title={Guiding Text-to-Image Diffusion Model Towards Grounded Generation},
+	  author={Li, Ziyi and Zhou, Qinye and Zhang, Xiaoyun and Zhang, Ya and Wang, Yanfeng and Xie, Weidi},
+	  journal = {arXiv:2301.05221},
+	  year={2023}
+	}
+	
 ## Acknowledgements
 Many thanks to the code bases from [Stable Diffusion](https://github.com/CompVis/stable-diffusion), [CLIP](https://github.com/openai/CLIP).
