@@ -25,7 +25,7 @@ conda activate grounded-diffusion
 
 https://drive.google.com/drive/folders/1HlagN6jVhmC_UbrOAy133LkN4Qgf2Scv?usp=sharing
 
-## Training
+## Train
 
 Comming soon....
 
