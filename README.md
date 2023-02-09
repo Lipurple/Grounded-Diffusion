@@ -31,10 +31,10 @@ python test.py --sd_ckpt 'xxx/stable_diffusion.ckpt' \
 If you use this code for your research or project, please cite:
 
 	@article{li2023grounded,
-	  title={Guiding Text-to-Image Diffusion Model Towards Grounded Generation},
-	  author={Li, Ziyi and Zhou, Qinye and Zhang, Xiaoyun and Zhang, Ya and Wang, Yanfeng and Xie, Weidi},
+	  title   = {Guiding Text-to-Image Diffusion Model Towards Grounded Generation},
+	  author  = {Li, Ziyi and Zhou, Qinye and Zhang, Xiaoyun and Zhang, Ya and Wang, Yanfeng and Xie, Weidi},
 	  journal = {arXiv:2301.05221},
-	  year={2023}
+	  year    = {2023}
 	}
 	
 ## Acknowledgements
