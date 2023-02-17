@@ -17,7 +17,9 @@ https://drive.google.com/drive/folders/1HlagN6jVhmC_UbrOAy133LkN4Qgf2Scv?usp=sha
 
 ## Train
 
-Comming soon....
+```
+python train.py --class_split 1 --train_data random --save_name pascal_1_random 
+```
 
 ## Inference
 ```bash
