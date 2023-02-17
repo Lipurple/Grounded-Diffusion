@@ -1,6 +1,3 @@
-# import sys
-# sys.path.insert(0, '/DB/data/qinyezhou/stable-diffusion-main')
-# sys.path.append("/DB/data/qinyezhou/Swin-Transformer-Object-Detection-master/mmdetection")
 from mmdet.apis import init_detector, inference_detector
 import warnings
 from pytorch_lightning import seed_everything
@@ -519,4 +516,3 @@ def main():
         
 if __name__ == "__main__":
     main()
-# CUDA_VISIBLE_DEVICES=2 python train.py --class_split 1 --train_data random --save_name pascal_1_random 
