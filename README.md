@@ -16,7 +16,7 @@ conda activate grounded-diffusion
 https://drive.google.com/drive/folders/1HlagN6jVhmC_UbrOAy133LkN4Qgf2Scv?usp=sharing
 
 ## Train
-
+Before training, please download the [checkpoint](https://drive.google.com/file/d/1JbJ7tWB15DzCB9pfLKnUHglckumOdUio/view) of the off-the-shelf detector into a folder called `mmdetection/checkpoint/`. 
 ```
 python train.py --class_split 1 --train_data random --save_name pascal_1_random 
 ```
