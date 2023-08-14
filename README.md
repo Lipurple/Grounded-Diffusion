@@ -1,4 +1,4 @@
-# Guiding Text-to-Image Diffusion Model Towards Grounded Generation
+# Open-vocabulary Object Segmentation with Diffusion Models
 
 This repository contains the official PyTorch implementation of grounded diffusion: https://arxiv.org/abs/2301.05221.
 
@@ -33,7 +33,7 @@ python test.py --sd_ckpt 'xxx/stable_diffusion.ckpt' \
 If you use this code for your research or project, please cite:
 
 	@article{li2023grounded,
-	  title   = {Guiding Text-to-Image Diffusion Model Towards Grounded Generation},
+	  title   = {Open-vocabulary Object Segmentation with Diffusion Models},
 	  author  = {Li, Ziyi and Zhou, Qinye and Zhang, Xiaoyun and Zhang, Ya and Wang, Yanfeng and Xie, Weidi},
 	  journal = {arXiv:2301.05221},
 	  year    = {2023}
