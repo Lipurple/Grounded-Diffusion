@@ -35,7 +35,7 @@ If you use this code for your research or project, please cite:
 	@article{li2023grounded,
 	  title   = {Open-vocabulary Object Segmentation with Diffusion Models},
 	  author  = {Li, Ziyi and Zhou, Qinye and Zhang, Xiaoyun and Zhang, Ya and Wang, Yanfeng and Xie, Weidi},
-	  journal = {arXiv:2301.05221},
+	  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
 	  year    = {2023}
 	}
 	
